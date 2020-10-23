@@ -9,12 +9,12 @@
 
 
 
-MenuItem.create(name: 'Tuna Nigiri', description: 'Tuna on vinegered rice', price: "3.50")
-MenuItem.create(name: 'Salmon Nigiri', description: 'Salmon on vinegered rice', price: "3.50")
-MenuItem.create(name: 'Yellowtail Nigiri', description: 'Yellowtail on vinegered rice', price: "3.50")
-MenuItem.create(name: 'White Tuna Nigiri', description: 'White Tuna on vinegered rice', price: "3.50")
-MenuItem.create(name: 'Eel Nigiri', description: 'Eel on vinegered rice', price: "3.00")
-MenuItem.create(name: 'Shrimp Nigiri', description: 'Shrimp on vinegered rice', price: "3.00")
+MenuItem.create(name: 'Tuna Nigiri', description: 'Tuna on vinegared rice', price: "3.50")
+MenuItem.create(name: 'Salmon Nigiri', description: 'Salmon on vinegared rice', price: "3.50")
+MenuItem.create(name: 'Yellowtail Nigiri', description: 'Yellowtail on vinegared rice', price: "3.50")
+MenuItem.create(name: 'White Tuna Nigiri', description: 'White Tuna on vinegared rice', price: "3.50")
+MenuItem.create(name: 'Eel Nigiri', description: 'Eel on vinegared rice', price: "3.00")
+MenuItem.create(name: 'Shrimp Nigiri', description: 'Shrimp on vinegared rice', price: "3.00")
 
 MenuItem.create(name: 'Miso Soup', description: '', price: "2.00")
 MenuItem.create(name: 'Clear Soup', description: 'Light broth with mushrooms, spinach and scallion.', price: "2.50")
