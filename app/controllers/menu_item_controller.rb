@@ -4,7 +4,7 @@ class MenuItemController < ApplicationController
   # GET /menu_items
   def index
     @menu_items = MenuItem.all
-    json_response(@menu_items)
+    json_response(MenuItemSerializer.new(@menu_items).serialized_json)
   end
 
   # POST /menu_items
