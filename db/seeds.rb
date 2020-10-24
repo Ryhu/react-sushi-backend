@@ -16,7 +16,7 @@ MenuItem.create(name: 'White Tuna Nigiri', category: 'Nigiri', description: 'Whi
 MenuItem.create(name: 'Eel Nigiri', category: 'Nigiri', description: 'Eel on vinegared rice', price: "300")
 MenuItem.create(name: 'Shrimp Nigiri', category: 'Nigiri', description: 'Shrimp on vinegared rice', price: "300")
 
-MenuItem.create(name: 'Miso Soup', category: 'Soup', description: '', price: "2.00")
+MenuItem.create(name: 'Miso Soup', category: 'Soup', description: '', price: "200")
 MenuItem.create(name: 'Clear Soup', category: 'Soup', description: 'Light broth with mushrooms, spinach and scallion.', price: "250")
 MenuItem.create(name: 'House Soup', category: 'Soup', description: 'Shrimp, scallop, tofu, kani and mix vegetables.', price: "500")
 
