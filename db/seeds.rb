@@ -33,3 +33,17 @@ MenuItem.create(name: 'Lobster Lover Roll', category: "Chef's Special Rolls", de
 MenuItem.create(name: 'Assorted Vegetable', category: "Japanese Noodles", description: 'Stir fried noodles. Served with miso soup.', price: '1495')
 MenuItem.create(name: 'Chicken and Vegetable', category: "Japanese Noodles", description: 'Stir fried noodles. Served with miso soup.', price: '1695')
 MenuItem.create(name: 'Seafood and Vegetable', category: "Japanese Noodles", description: 'Stir fried noodles. Served with miso soup.', price: '1995')
+
+MenuItem.create(name: 'Soda', category: 'Beverages', price: '150')
+MenuItem.create(name: 'Poland Spring Bottled Water', category: 'Beverages', price: '150')
+MenuItem.create(name: 'Homemade Iced Tea', category: 'Beverages', price: '150')
+
+MenuItem.create(name: 'Albacore Tataki', category: "Cold Appetizers", description: 'White tuna, chili oil, ginger and scallion.', price: '1200')
+MenuItem.create(name: 'Black Pepper Tuna', category: "Cold Appetizers", description: 'Graded horseradish, sesame and ginger soy.', price: '1200')
+MenuItem.create(name: 'Rock Shrimp', category: "Cold Appetizers", description: 'Shrimp, scallion, baby spinach, mango and avocado.', price: '1200')
+MenuItem.create(name: 'Salmon Carpaccio', category: "Cold Appetizers", description: 'Salmon, avocado, ikeru, scallion and chives.', price: '1200')
+MenuItem.create(name: 'Spicy Tuna Tartar', category: "Cold Appetizers", description: 'Spicy tuna, avocado and fish roe.', price: '1200')
+MenuItem.create(name: 'Usuzukuri', category: "Cold Appetizers", description: 'Fluke, scallion, fish roe and ponzu.', price: '1200')
+MenuItem.create(name: 'Yellowtail Jalapeno', category: "Cold Appetizers", description: 'Yellowtail, jalapeno, fish roe and ponzu.', price: '1200')
+MenuItem.create(name: 'Tako Su', category: "Cold Appetizers", description: 'Tako, graded horseradish, scallion and fish roe.', price: '1200')
+MenuItem.create(name: 'Crispy Rice', category: "Cold Appetizers", description: 'Tempura, spicy tuna, avocado, jalapeno.', price: '1400')
