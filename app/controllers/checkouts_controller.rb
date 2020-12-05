@@ -6,7 +6,7 @@ class CheckoutsController < ApplicationController
       OrderItem.create(checkout_id: @checkout.id, menu_item_id: item['id'], quantity: item['quantity'], comments: item['comments'])
     end
 
-    json_response(@checkout, :created)
+    json_response(CheckoutSerializer.new(@checkout).serialized_json)
   end
 
   private
