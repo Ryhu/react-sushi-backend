@@ -1,4 +1,4 @@
-class MenuItemController < ApplicationController
+class MenuItemsController < ApplicationController
   before_action :set_menu_item, only: [:show, :update, :destroy]
 
   # GET /menu_items
