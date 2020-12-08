@@ -1,4 +1,4 @@
 class OrderItem < ApplicationRecord
   belongs_to :checkout 
-  has_one :menu_item
+  belongs_to :menu_item 
 end

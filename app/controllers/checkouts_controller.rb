@@ -3,10 +3,10 @@ class CheckoutsController < ApplicationController
     # create checkout object, attach all relevant menu_items to it,
     @checkout = Checkout.create()
     params['items'].each do |item|
-      OrderItem.create(checkout_id: @checkout.id, menu_item_id: item['id'], quantity: item['quantity'], comments: item['comments'])
+      OrderItem.create!(checkout_id: @checkout.id, menu_item_id: item['id'], quantity: item['quantity'], comments: item['comments'])
     end
 
-    json_response(CheckoutSerializer.new(@checkout).serialized_json)
+    json_response(CheckoutSerializer.new(@checkout, {include: [:order_items, :'order_items.menu_item']}).serializable_hash.to_json)
   end
 
   private

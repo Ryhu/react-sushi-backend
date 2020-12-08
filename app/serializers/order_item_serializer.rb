@@ -1,6 +1,8 @@
-class OrderItemSerializer < ActiveModel::Serializer
-  include FastJsonapi::ObjectSerializer
-  has_one :menu_item, serializer: MenuItemSerializer
+class OrderItemSerializer
+  include JSONAPI::Serializer
+  attributes :id, :quantity, :comments
 
-  attributes :quantity, :comments
+  def menu_item 
+    45
+  end
 end

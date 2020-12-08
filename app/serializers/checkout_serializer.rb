@@ -1,17 +1,11 @@
-class CheckoutSerializer < ActiveModel::Serializer
-  include FastJsonapi::ObjectSerializer
-    has_many :order_items, serializer: OrderItemSerializer
-
+class CheckoutSerializer
+  include JSONAPI::Serializer
   attributes :id, :created_at
+  has_many :order_items, serializer: OrderItemSerializer
+
+  attribute :order_items do |object|
+    object.order_items.map do |item|
+      OrderItemSerializer.new(item)
+    end
+  end
 end
-
-
-# class CheckoutSerializer < ActiveModel::Serializer
-#   include FastJsonapi::ObjectSerializer
-
-#   attributes :id, :created_at
-
-#   attribute :order_items do |object|
-#     object.order_items
-#   end
-# end
