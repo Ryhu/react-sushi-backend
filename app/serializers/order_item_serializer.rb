@@ -5,4 +5,8 @@ class OrderItemSerializer
   def menu_item 
     45
   end
+
+  attribute :menu_item do |object|
+    MenuItemSerializer.new(object.menu_item)
+  end
 end
