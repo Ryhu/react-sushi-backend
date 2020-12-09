@@ -8,4 +8,8 @@ class CheckoutSerializer
       OrderItemSerializer.new(item)
     end
   end
+
+  attribute :price do |object|
+    object.price.to_f / 100
+  end
 end
